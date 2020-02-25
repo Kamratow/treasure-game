@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GamePage renders properly when game is finished 1`] = `
+"<Fragment>
+  <h3 className=\\"GamePageFinishTitle\\">
+    Congratulations 
+    Test player
+    !! You have won in 
+    1
+     turns.
+  </h3>
+  <button type=\\"button\\" onClick={[Function: onClick]}>
+    Restart Game
+  </button>
+  <LeaderBoard scores={{...}} />
+</Fragment>"
+`;
+
+exports[`GamePage renders properly when game is not finished 1`] = `
+"<Fragment>
+  <PageHeader headerText=\\"Test game\\" />
+  <AddPlayer isGameStarted={true} playerName=\\"Test player\\" gameStarted={[Function: gameStarted]} nameChanged={[Function: nameChanged]} />
+  <TurnControl isGameStarted={true} currentTurn={1} movesLeft={3} />
+  <GameBoard isGameStarted={true} isGameSetupLoading={false} isGameSetupFetchFailed={false} gameSetup={{...}} cellClicked={[Function: cellClicked]} />
+</Fragment>"
+`;

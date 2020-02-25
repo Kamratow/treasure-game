@@ -1,0 +1,39 @@
+.BoardCell {
+  box-sizing: border-box;
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  justify-content: center;
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.BoardCellSelected {
+  background-color: #00ff00;
+}
+
+.BoardCellTreasure {
+  background-color: #ff0000;
+}
+
+.BoardCellProximityHigh {
+  background-color: #ffa500;
+}
+
+.BoardCellProximityMedium {
+  background-color: #ffa07a;
+}
+
+.BoardCellProximityLow {
+  background-color: #d3d3d3;
+}
+
+.BoardCellText {
+  user-select: none;
+}

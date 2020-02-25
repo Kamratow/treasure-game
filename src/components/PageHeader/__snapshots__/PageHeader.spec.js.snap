@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHeader renders correctly with default props 1`] = `
+"<Fragment>
+  <h1 className=\\"PageHeader\\">
+    Test Header
+  </h1>
+  <h2>
+    Find three treasures!
+  </h2>
+</Fragment>"
+`;

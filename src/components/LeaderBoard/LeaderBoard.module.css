@@ -1,0 +1,12 @@
+.LeaderBoard {
+  margin-top: 30px;
+}
+
+.LeaderBoardList {
+  padding-left: 0;
+}
+
+.LeaderBoardListItem {
+  display: block;
+  text-align: center;
+}
